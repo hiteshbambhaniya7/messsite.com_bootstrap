@@ -8,6 +8,7 @@
 
 h1 {
     font-size: 4rem;
+    
 }
 
 .color-overlay {
@@ -38,4 +39,62 @@ flex-grow : 0;
 padding : 0;
 overflow-y : visible;
 background-color : transparent !important;
+}
+
+
+#custom_text
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+/* Read more button style */
+
+@import url(@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+.stage {
+/* padding:40px; */
+text-align:center;}
+
+.readmore{
+  line-height:1em;
+  letter-spacing:0.06em;
+  font-family: 'Lato', sans-serif;
+  font-weight:normal;
+  font-size:16px;
+  
+  color:#fff;
+  background:#000000;
+  display:inline-block;
+  padding:15px 12px 15px 15px;
+  transition:background 200ms;
+  border-radius:4px;
+}
+.readmore:hover {
+  background:#4a4a4a;
+  text-decoration:none;
+}
+.readmore:after {
+  font-family: 'FontAwesome', sans-serif;
+  font-weight:300;
+  /* content: "\f105"; */
+  margin-left:20px;
+  color:#000000;
+  font-size:18px;
+  vertical-align:middle;
+  transition:color 200ms;
+}
+
+.readmore:hover:after {
+  color:#231f20;
+}
+
+.readmore:link,
+.readmore:visited,
+.readmore:active
+{
+    text-decoration: none;
+
+    
 }
